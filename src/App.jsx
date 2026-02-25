@@ -144,10 +144,15 @@ function App() {
         <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
           <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left'>My Skills</h1>
           <div>
-            <h2>HTML</h2>
+            <h2>Microsoft Power Platform (Power Apps, Power Automate, Power BI)</h2>
             <div className='shadow bg-green-100 mt-2 w-full'>
               <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:"85%"}}>85%</div>
             </div>
+            <h2>VBA</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:"95%"}}>95%</div>
+            </div>
+
               <h2>JavaScript</h2>
             <div className='shadow bg-green-100 mt-2 w-full'>
               <div className='bg-orange-600 text-xs leading-none py-1 text-center text-white' style={{width:"75%"}}>75%</div>
