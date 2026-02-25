@@ -25,9 +25,12 @@ function App() {
     <section className='text-gray-700 border-b border-gray-200'>
       <div className='flex container mx-auto py-20 px-5 flex-col md:flex-row items-center'>
         <div className='md:w-1/2 grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left'>
-          <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>NisshoCode<br />
+          <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>Akemi<br />
           My Portfolio WebSite</h1>
-          <p className='mb-8 leading-relaxed'>現在、Webエンジニアとしてデビューしたてのほやほやです。特異な言語はHTML, CSS, JavaScript, TypeScript, PHP, SQL, ReactなどWeb全般とPythonです。自身が作ったものを公開しておりますので、ぜひ見ていってください。</p>
+            <p className='mb-8 leading-relaxed'><b>業務改善の20年を、デジタルでさらに加速させる。</b><br />
+              20年にわたり、現場の「困った」をITの力で解決してきました。<br />
+              これまでに市民開発の事務局運営として200名以上のユーザーをインストラクション＆サポートし、現場主導の内製化とガバナンスの両立を推進した実績があります。<br />
+              現在は、これまでの業務理解力にPython・Power BIといった最新スキルや分析能力を掛け合わせ、AI活用による高度な自動化や、経営判断を支えるデータ可視化に取り組んでいます。</p>
             <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact Me</button>
         </div>
           <div className='md:w-1/2 lg:max-w-lg w-5/6'>
@@ -152,19 +155,34 @@ function App() {
             <div className='shadow bg-green-100 mt-2 w-full'>
               <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:"95%"}}>95%</div>
             </div>
-
-              <h2>JavaScript</h2>
+            <br />
+            <h2>PHP</h2>
             <div className='shadow bg-green-100 mt-2 w-full'>
-              <div className='bg-orange-600 text-xs leading-none py-1 text-center text-white' style={{width:"75%"}}>75%</div>
-            </div>
-            <h2>React</h2>
-            <div className='shadow bg-green-100 mt-2 w-full'>
-              <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white' style={{ width: "60%" }}>60%</div>
+              <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white' style={{ width: "80%" }}>80%</div>
             </div>
             <h2>Python</h2>
             <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white' style={{ width: "50%" }}>50%</div>
+            </div>
+              <h2>Apps Script</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white' style={{ width: "70%" }}>70%</div>
+            </div>
+              <h2>Java Script</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-blue-600 text-xs leading-none py-1 text-center text-white' style={{ width: "70%" }}>70%</div>
+            </div>
+              <br />
+            <h2>SQL</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
               <div className='bg-amber-500 text-xs leading-none py-1 text-center text-white' style={{ width: "80%" }}>80%</div>
             </div>
+              <br />
+            <h2>RPA (UiPath)</h2>
+            <div className='shadow bg-green-100 mt-2 w-full'>
+              <div className='bg-orange-600 text-xs leading-none py-1 text-center text-white' style={{ width: "80%" }}>80%</div>
+            </div>
+
           </div>
 
         </div>
